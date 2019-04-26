@@ -276,3 +276,18 @@ div#box9 {
 div#box10 {
     background-color: dodgerblue;
 }
+
+/* nav animation  */
+
+.container header nav a:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: gray;
+  transition: width 0.5s ease-in-out;
+}
+.container header nav a:hover:after,
+.container header nav a:focus:after {
+  width: 100%;
+}
