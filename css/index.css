@@ -144,3 +144,150 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Ben Rogers Styles Start */
+
+header {
+    margin: 30px 0 30px 0;
+}
+
+header, nav, nav > ul {
+    display: flex;
+}
+
+nav {
+    align-items: flex-end;
+}
+
+header > img {
+    margin-right: 10%;
+}
+
+nav > ul > li {
+    margin-right: 30%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h2, button {
+    margin: 15px 0 20px 0;
+}
+
+/* img {
+    width: 100%;
+} */
+
+button {
+    font-size: 100%;
+    font-family: inherit;
+    background: transparent;
+    border: solid 2px black;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+div.hero {
+    margin-bottom: 30px;
+    border-bottom: dashed 1px black;
+    padding-bottom: 20px;
+}
+
+div.hero-copy {
+    padding: 0 20px 0 20px;
+}
+
+div.half-cards {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div.wrapper-half {
+    width: 45%;
+    margin-bottom: 60px;
+    border-bottom: dashed 1px black;
+}
+
+div.lets-work {
+    margin-top: -25px;
+}
+
+div.wrapper-half > img {
+    width: 100%;
+}
+
+img#jumbo {
+    margin: 20px 0 20px 0;
+}
+
+/* box color styles */
+
+/* 
+Color Reference: 
+
+teal
+gold
+cadetblue
+coral
+crimson
+forestgreen
+darkorchid
+hotpink
+indigo
+dodgerblue 
+
+*/
+
+div#box1 {
+    background-color: teal;
+}
+div#box2 {
+    background-color: gold;
+}
+div#box3 {
+    background-color: cadetblue;
+}
+div#box4 {
+    background-color: coral;
+}
+div#box5 {
+    background-color: crimson;
+}
+div#box6 {
+    background-color: forestgreen;
+}
+div#box7 {
+    background-color: darkorchid;
+}
+div#box8 {
+    background-color: hotpink;
+}
+div#box9 {
+    background-color: indigo;
+}
+div#box10 {
+    background-color: dodgerblue;
+}
+
+/* nav animation  */
+
+.container header nav a:after {
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: gray;
+  transition: width 0.5s ease-in-out;
+}
+.container header nav a:hover:after,
+.container header nav a:focus:after {
+  width: 100%;
+}
