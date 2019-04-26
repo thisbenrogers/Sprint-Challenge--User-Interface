@@ -144,3 +144,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Ben Rogers Styles Start */
+
+header {
+    margin: 30px 0 30px 0;
+}
+
+header, nav, nav > ul {
+    display: flex;
+}
+
+nav {
+    align-items: flex-end;
+}
+
+header > img {
+    margin-right: 10%;
+}
+
+nav > ul > li {
+    margin-right: 30%;
+}
+
+footer {
+    margin-bottom: 30px;
+}
+
+img#jumbo {
+    margin: 20px 0 20px 0;
+}
