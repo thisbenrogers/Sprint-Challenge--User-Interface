@@ -227,3 +227,52 @@ div.wrapper-half > img {
 img#jumbo {
     margin: 20px 0 20px 0;
 }
+
+/* box color styles */
+
+/* 
+Color Reference: 
+
+teal
+gold
+cadetblue
+coral
+crimson
+forestgreen
+darkorchid
+hotpink
+indigo
+dodgerblue 
+
+*/
+
+div#box1 {
+    background-color: teal;
+}
+div#box2 {
+    background-color: gold;
+}
+div#box3 {
+    background-color: cadetblue;
+}
+div#box4 {
+    background-color: coral;
+}
+div#box5 {
+    background-color: crimson;
+}
+div#box6 {
+    background-color: forestgreen;
+}
+div#box7 {
+    background-color: darkorchid;
+}
+div#box8 {
+    background-color: hotpink;
+}
+div#box9 {
+    background-color: indigo;
+}
+div#box10 {
+    background-color: dodgerblue;
+}
